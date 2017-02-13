@@ -1,13 +1,18 @@
 # ember-tinycon
 
-This README outlines the details of collaborating on this Ember addon.
+Shim wrapper around [tinycon](https://github.com/tommoor/tinycon).
+
+```javascript
+import Tinycon from 'tinycon';
+
+Tinycon.setBubble(5);
+```
 
 ## Installation
 
 * `git clone <repository-url>` this repository
 * `cd ember-tinycon`
-* `npm install`
-* `bower install`
+* `yarn install`
 
 ## Running
 
@@ -16,7 +21,7 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Running Tests
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
+* `yarn run test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
